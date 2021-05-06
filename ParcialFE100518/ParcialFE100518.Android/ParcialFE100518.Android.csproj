@@ -105,9 +105,6 @@
     <AndroidResource Include="Resources\drawable\descarga.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\gg.jfif" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\registro.png" />
   </ItemGroup>
   <ItemGroup>
