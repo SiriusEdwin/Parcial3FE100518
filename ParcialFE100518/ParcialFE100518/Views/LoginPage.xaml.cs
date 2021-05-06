@@ -17,5 +17,10 @@ namespace ParcialFE100518.Views
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
         }
+
+        private async void Btn_APPregistro(object sender, EventArgs e)
+        {
+            await DisplayAlert("Resgitro", "Haz sido registrado correctamente", "Ok" + Navigation.PushAsync(new AboutPage()));
+        }
     }
 }

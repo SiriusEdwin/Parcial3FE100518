@@ -14,7 +14,7 @@ namespace ParcialFE100518
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new AboutPage());
         }
 
         protected override void OnStart()

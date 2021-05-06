@@ -7,8 +7,28 @@
              x:Class="ParcialFE100518.Views.LoginPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
-        </StackLayout>
+        
+        <Grid>
+            <Label Text="sSmarthPhones" ></Label>
+            <Image Source="Samsung.png" Aspect="AspectFill"/>
+            <BoxView Color="GhostWhite" Opacity="0.25"></BoxView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" Source="iphone.png" WidthRequest="100" HeightRequest="100" Margin="0,60,0,40"/>
+                <StackLayout Grid.Row="1" Padding="10,20">
+                    <Entry Placeholder="Correo Electronico" PlaceholderColor="Black" TextColor="White"/>
+                    <Entry Placeholder="Contraseña" PlaceholderColor="Black" IsPassword="True" TextColor="White"/>
+                    <Button Text="Iniciar Sesion" BackgroundColor="Cyan" BorderWidth="0.1" TextColor="Azure" CornerRadius="17"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="¿Recuperar contraseña?" TextColor="Black" FontAttributes="Bold"/>
+                        <Button Text="Registrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold" TextColor="Black" Clicked="Btn_APPregistro"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -11,5 +11,10 @@ namespace ParcialFE100518.Views
         {
             InitializeComponent();
         }
+
+        private async void NavigateButton_OnButtonClicked(object sender,EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
     }
 }
