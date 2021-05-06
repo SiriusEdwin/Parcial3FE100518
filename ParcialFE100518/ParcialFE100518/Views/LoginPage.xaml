@@ -9,23 +9,26 @@
     <ContentPage.Content>
         
         <Grid>
-            <Label Text="sSmarthPhones" ></Label>
-            <Image Source="Samsung.png" Aspect="AspectFill"/>
-            <BoxView Color="GhostWhite" Opacity="0.25"></BoxView>
+          
+            <Image Source="descarga.png" Aspect="AspectFill"/>
+            <BoxView Color="DarkGray" Opacity="0.90"></BoxView>
             <Grid>
+                
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Image Grid.Row="0" Source="iphone.png" WidthRequest="100" HeightRequest="100" Margin="0,60,0,40"/>
+                <Label Text="sSmartPhones"  FontAttributes="Italic" Padding="20" FontSize="Title" HorizontalTextAlignment="Center" TextColor="Black"></Label>
                 <StackLayout Grid.Row="1" Padding="10,20">
-                    <Entry Placeholder="Correo Electronico" PlaceholderColor="Black" TextColor="White"/>
-                    <Entry Placeholder="Contraseña" PlaceholderColor="Black" IsPassword="True" TextColor="White"/>
-                    <Button Text="Iniciar Sesion" BackgroundColor="Cyan" BorderWidth="0.1" TextColor="Azure" CornerRadius="17"/>
+                    <Entry Placeholder="Correo Electronico" x:Name="Email" PlaceholderColor="LightGray" TextColor="Black"/>
+                    <Entry Placeholder="Contraseña" x:Name="Contra" PlaceholderColor="LightGray" IsPassword="True" TextColor="Black"/>
+                    <Button Text="Iniciar Sesion" BackgroundColor="LightGreen" BorderWidth="0.1" TextColor="Black" CornerRadius="10" FontAttributes="Bold" Clicked="Btn_APPMenu"/>
+                    
                     <StackLayout Orientation="Horizontal">
                         <Label Text="¿Recuperar contraseña?" TextColor="Black" FontAttributes="Bold"/>
-                        <Button Text="Registrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold" TextColor="Black" Clicked="Btn_APPregistro"/>
+                        <Button Text="Registrarse" BorderWidth="0.1" BackgroundColor="LightGreen" CornerRadius="10" HorizontalOptions="EndAndExpand" FontAttributes="Bold" TextColor="Black" Clicked="Btn_APPregistro"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>

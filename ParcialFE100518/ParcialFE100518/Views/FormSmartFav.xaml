@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialFE100518.Views.FormSmartFav">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Padding="10" ></Label>
+                        <StackLayout Grid.Row="0">
+                            <Label Padding="10"></Label>
+                            <Label Text="Dinos lo que mas te gusta de tu Smartphone" FontSize="Title" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+                            <Image Source="Huawei.png" WidthRequest="100" HorizontalOptions="Center"  />
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1">
+                            <Entry Placeholder="El modelo que mas te ha gustado" FontSize="16" x:Name="EnMo" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="2">
+                            <Entry Placeholder="El mejor sistema operativo que te ha gustado" FontSize="16" x:Name="Ensis" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="3">
+                            <Entry Placeholder="La compañia que mas te gusta" FontSize="16" x:Name="Encom" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="4">
+                            <Entry Placeholder="El telefono con la mejor camara que has probado" FontSize="16" x:Name="Encam" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="5">
+                            <Entry Placeholder="Cual es el smarthphone con mejor calidad que has probado" FontSize="16" x:Name="Enca" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="6">
+                            <Button Text="Mandar Recomendacion" HorizontalOptions="CenterAndExpand" TextColor="WhiteSmoke" WidthRequest="250" BackgroundColor="LightBlue" Clicked="Btn_FormSmart"  />
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

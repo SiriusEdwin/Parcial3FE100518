@@ -580,3 +580,10 @@ C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.A
 C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\samsung.png
 C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\iphone.png
 C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\logosmartphone.png
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\descarga.png
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\gg.jfif
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\registro.png
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\huawei.png
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\spec.png
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\menu.png
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518.Android\obj\Debug\110\res\drawable\moviles.png

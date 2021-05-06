@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialFE100518.Views.MenuMo">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Padding="10" ></Label>
+                        <StackLayout Grid.Row="0">
+                            <Label Padding="10"></Label>
+                            <Label Text="Menu sSmartPhones" FontSize="50" TextColor="Black" HorizontalTextAlignment="Center" FontAttributes="Italic" ></Label>
+                            <Image Source="menu.png" WidthRequest="100" HorizontalOptions="Center"  />
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1">
+                            <Button Text="Recomendar tu smartphone favorito"  HorizontalOptions="Center"  BorderWidth="0.1" CornerRadius="5" TextColor="WhiteSmoke" WidthRequest="250" BackgroundColor="LightBlue" Clicked="Btn_FormSmart" />
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="2">
+                            <Button Text="Recomendar las especificaciones favoritas de un smartphone"  HorizontalOptions="Center"  BorderWidth="0.1" CornerRadius="5" TextColor="WhiteSmoke" WidthRequest="280" BackgroundColor="LightBlue" Clicked="Btn_FormSmartSpec" />
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="3">
+                            <Button Text="Recomendar los mejores precios en moviles"  HorizontalOptions="Center"  BorderWidth="0.1" CornerRadius="5" TextColor="WhiteSmoke" WidthRequest="280" BackgroundColor="LightBlue" Clicked="Btn_FormPrecMov" />
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="4">
+                            <Button Text="Salir" HorizontalOptions="CenterAndExpand" TextColor="WhiteSmoke" WidthRequest="200" BackgroundColor="LightBlue" Clicked="Btn_salir" />
+                            <Label Padding="5"></Label>
+                        </StackLayout>
+                    
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

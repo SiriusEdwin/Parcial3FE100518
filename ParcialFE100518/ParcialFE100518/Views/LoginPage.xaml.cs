@@ -18,9 +18,26 @@ namespace ParcialFE100518.Views
             this.BindingContext = new LoginViewModel();
         }
 
-        private async void Btn_APPregistro(object sender, EventArgs e)
+        private void Btn_APPregistro(object sender, EventArgs e)
         {
-            await DisplayAlert("Resgitro", "Haz sido registrado correctamente", "Ok" + Navigation.PushAsync(new AboutPage()));
+            DisplayAlert("Registro", "Empieza a crear  tu cuenta", "ok");
+            Navigation.PushAsync(new Registro());
         }
+
+
+        private void Btn_APPMenu(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(Email.Text) && !string.IsNullOrEmpty(Contra.Text))
+            {
+                DisplayAlert("Menu", "Bienvenido al menu puedes comenzar a explorar", "Entendido");
+                Navigation.PushAsync(new MenuMo());
+            }
+            else
+            {
+                DisplayAlert("Login", "Datos incorrectos por favor escriba correctamente los datos", "Entendido");
+            }
+            
+        }
+
     }
 }

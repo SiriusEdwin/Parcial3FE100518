@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialFE100518.Views.FormSpecSmart">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Padding="10" ></Label>
+                        <StackLayout Grid.Row="0">
+                            <Label Padding="10"></Label>
+                            <Label Text="Dinos las mejores especificaciones para tu movil" FontSize="Title" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+                            <Image Source="spec.png" WidthRequest="100" HorizontalOptions="Center"  />
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1">
+                            <Entry Placeholder="Cuanta memoria interna necesitas en tu movil" FontSize="16" x:Name="Cumemo" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="2">
+                            <Entry Placeholder="Cuanta memoria ram debe de tener tu movil" FontSize="16" x:Name="curam" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="3">
+                            <Entry Placeholder="Cuantos nucleos debe tener tu movil" FontSize="16" x:Name="cunu" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="4">
+                            <Entry Placeholder="Cuantos megapixeles debe de tener tu movil"  FontSize="16" x:Name="cumega" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="5">
+                            <Entry Placeholder="De que tamaño y resolucion debe ser tu pantalla" FontSize="16" x:Name="cutextam" VerticalTextAlignment="Center"/>
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="6">
+                            <Button Text="Mandar Recomendacion" HorizontalOptions="CenterAndExpand" TextColor="WhiteSmoke" WidthRequest="250" BackgroundColor="LightBlue"  Clicked="Btn_FormSpecSmart" />
+                            <Label Padding="10"></Label>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -18,3 +18,7 @@ C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518\o
 C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518\obj\Debug\netstandard2.0\ref\ParcialFE100518.dll
 C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518\obj\Debug\netstandard2.0\ParcialFE100518.pdb
 C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518\obj\Debug\netstandard2.0\Views\Registro.xaml.g.cs
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518\obj\Debug\netstandard2.0\Views\FormSmartFav.xaml.g.cs
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518\obj\Debug\netstandard2.0\Views\FormSpecSmart.xaml.g.cs
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518\obj\Debug\netstandard2.0\Views\FormPrecMov.xaml.g.cs
+C:\Users\Geovanni\source\repos\ParcialFE100518\ParcialFE100518\ParcialFE100518\obj\Debug\netstandard2.0\Views\MenuMo.xaml.g.cs

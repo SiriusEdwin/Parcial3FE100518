@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialFE100518.Views.FormPrecMov">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Padding="10" ></Label>
+                        <StackLayout Grid.Row="0">
+                            <Label Padding="10"></Label>
+                            <Label Text="Dinos los mejores precios que has encontrado" FontSize="Title" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+                            <Image Source="moviles.png" WidthRequest="100" HorizontalOptions="Center"  />
+                            <Label Padding="5"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="1">
+                            <Entry Placeholder="El modelo con el mejor precio de 2021" FontSize="16" x:Name="Enpre" VerticalTextAlignment="Center"/>
+                            <Label Padding="5"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="2">
+                            <Entry Placeholder="El movil con las caractersiticas basicas que debe tener" FontSize="16" x:Name="movcaba" VerticalTextAlignment="Center"/>
+                            <Label Padding="5"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="3">
+                            <Entry Placeholder="El modelo mas barato y cumplidor del mercado" FontSize="16" x:Name="mobacu" VerticalTextAlignment="Center"/>
+                            <Label Padding="5"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="4">
+                            <Entry Placeholder="El movil mas caro pero que no cumplio tus expectativas" FontSize="16" x:Name="movcano" VerticalTextAlignment="Center"/>
+                            <Label Padding="5"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Row="6">
+                            <Button Text="Mandar Recomendacion" HorizontalOptions="CenterAndExpand" TextColor="WhiteSmoke" WidthRequest="200" BackgroundColor="LightBlue" Clicked="Btn_FormPrecMov" />
+                            <Label Padding="5"></Label>
+                        </StackLayout>
+                        
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

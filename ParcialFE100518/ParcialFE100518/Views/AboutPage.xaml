@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ParcialFE100518.Views.AboutPage"
              xmlns:vm="clr-namespace:ParcialFE100518.ViewModels"
-             Title="{Binding Title}">
+             Title="">
+           
+    
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
@@ -11,7 +13,7 @@
     
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="Accent">#96d1ff</Color>
+            <Color x:Key="Accent">#96d1</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -20,7 +22,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        <StackLayout BackgroundColor="LightGreen" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
                 <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
                     <Image Source="logosmartphone.png" VerticalOptions="Center" HeightRequest="64" />
@@ -29,9 +31,10 @@
         </StackLayout>
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-                <Label Text="Bienvenidos al Registro de sSmartPhones" FontSize="Title"/>
-                <Label Text="Empieza a registrar tus modelos de smartphone, crea una cuenta especial para observar los mejores smartphones del mercado" FontSize="16" Padding="0,0,0,0"/>
-                <Label FontSize="16" Padding="0,24,0,0">
+                <Label Text="Bienvenidos al Registro de sSmartPhones" FontSize="Title" HorizontalTextAlignment="Center" />
+                <Label Padding="10"></Label>
+                <Label Text="Empieza a registrar tus modelos de smartphone, crea una cuenta especial para observar los mejores smartphones del mercado" FontSize="16" Padding="0,0,0,0" HorizontalTextAlignment="Center" />
+                <Label FontSize="16" Padding="10,24,0,0">
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>

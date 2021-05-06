@@ -16,9 +16,18 @@ namespace ParcialFE100518.Views
         {
             InitializeComponent();
         }
-        private async void Btn_Registro(object sender, EventArgs e)
+
+        private void Btn_Registro(object sender, EventArgs e)
         {
-            await DisplayAlert("Registro", "Haz confirmado tu registro", "ok" + Navigation.PushAsync(new AboutPage()));
+            if (!string.IsNullOrEmpty(EnNameUser.Text) && !string.IsNullOrEmpty(EnEmail.Text) && !string.IsNullOrEmpty(EnContraseña2.Text) && !string.IsNullOrEmpty(EnContra.Text))
+            {
+                DisplayAlert("Registro", "Haz confirmado tu registro", "ok");
+                Navigation.PushAsync(new LoginPage());
+            }
+            else
+            {
+                DisplayAlert("Registro", "Datos Incorrectos, por favor coloque correctamente los datos", "ok");
+            }
         }
     }
 }
