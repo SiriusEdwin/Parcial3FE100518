@@ -11683,58 +11683,58 @@ namespace ParcialFE100518.Droid
 			public const int design_snackbar_background = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int gg = 2131165293;
-			
-			// aapt resource value: 0x7F07006E
-			public const int Huawei = 2131165294;
-			
-			// aapt resource value: 0x7F070073
-			public const int icon_about = 2131165299;
-			
-			// aapt resource value: 0x7F070074
-			public const int icon_feed = 2131165300;
-			
-			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_checked_circle = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int ic_mtrl_chip_checked_black = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int ic_mtrl_chip_checked_circle = 2131165297;
+			public const int Huawei = 2131165293;
 			
 			// aapt resource value: 0x7F070072
-			public const int ic_mtrl_chip_close_circle = 2131165298;
+			public const int icon_about = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int icon_feed = 2131165299;
+			
+			// aapt resource value: 0x7F07006E
+			public const int ic_mtrl_checked_circle = 2131165294;
+			
+			// aapt resource value: 0x7F07006F
+			public const int ic_mtrl_chip_checked_black = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int ic_mtrl_chip_checked_circle = 2131165296;
+			
+			// aapt resource value: 0x7F070071
+			public const int ic_mtrl_chip_close_circle = 2131165297;
+			
+			// aapt resource value: 0x7F070074
+			public const int iphone = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int iphone = 2131165301;
+			public const int logosmartphone = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int logosmartphone = 2131165302;
+			public const int material_ic_calendar_black_24dp = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_calendar_black_24dp = 2131165303;
+			public const int material_ic_clear_black_24dp = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_clear_black_24dp = 2131165304;
+			public const int material_ic_edit_black_24dp = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int material_ic_edit_black_24dp = 2131165305;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165306;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165307;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165308;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165309;
+			public const int menu = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int menu = 2131165310;
+			public const int metal = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
 			public const int moviles = 2131165311;
